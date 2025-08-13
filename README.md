@@ -1,4 +1,4 @@
-From ideas:
+Work in progress
 
 # Spotify Advanced Search
 
@@ -8,4 +8,6 @@ I am trying to find a song that I listened to 2 days ago. I have no idea if it w
 
 Adding to this, I think it would be neat to create a playlist that was just the last X months of my spotify liked songs and have it constantly update. It would be nice to shuffle this. I feel like a lot gets lost.
 
+## Last X months deployment
 
+- python 3.9
