@@ -1,0 +1,14 @@
+[Unit]
+Description=Spotify Sync Daily Script
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+WorkingDirectory=/home/debian/Spotify
+ExecStart=/home/debian/Spotify/venv/bin/python /home/debian/Spotify/playlist-generator.py
+User=debian
+
+[Install]
+WantedBy=multi-user.target
